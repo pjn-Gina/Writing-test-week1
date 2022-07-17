@@ -1,0 +1,7 @@
+# TUGAS WRITING WEEK 1-KIND KNUCKER
+
+1. CLI
+2. GIT & GITHUB
+3. HTML
+4. CSS
+5. Algoritm & Pseudocode
