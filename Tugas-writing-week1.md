@@ -79,6 +79,8 @@
 * **GITHUB** untuk mengonlinekan codingan
 
     Dengan menggunakan GIT dan Github, kita bisa bekerja dalam sebuah tim. Tujuannya adalah kita bisa berkolaborasi mengerjakan proyek yang sama
+    
+    
 
 * Repository adalah direktori proyek yang kita buat
 * Repository GIT
@@ -97,8 +99,10 @@ catatan : lakukan di dalam folder proyek
 
 3. **git add** untuk mendaftarkan perubahan file pada suatu proyek ke staging area dan masih perlu di commit
 
-    *Note :*
-    * **modified** = kondisi dimana perubahan sudah dilakukan tapi belum ditandai
+    *Note : **Kondisi File pada GIT***
+    * **modified** = kondisi dimana perubahan sudah dilakukan tapi belum ditandai (untracked)
+    * **staged** = kondisi dimana perubahan file sudah ditandai (modified), tapi belum di simpan di version control
+    * **commited** = perubahan sudah disimpan pada version control
 
 4. **git add .** untuk menambahkan seluruh file yang belum di add ke staging 
 
@@ -107,7 +111,7 @@ catatan : lakukan di dalam folder proyek
 6. **git log** untuk melihat history / kumpulan checkpoint(commit) yang telah kita buat
 
 7. **git revert (nomor commit)** untuk kembali ke checkpoint tanpa menghapus committan sesudahnya.
-
+ 
 8. **git reset (nomor commit)** untuk kembali ke checkpoint dengan menghapus committan sesudahnya.
 
 9. **git branch** untuk melihat kumpulan branch
@@ -121,18 +125,15 @@ catatan : lakukan di dalam folder proyek
 13. **git branch -d (nama branch)**
   menghapus branch 
 
-- git merge <nama target branch yang ingin kita tarik>
-  menggabungkan kedua buah branch
+14. **git merge (nama target branch yang ingin kita tarik)** untuk menggabungkan kedua buah branch
 
-*
-* d
-* g
+15. **git push -u origin main** untuk mengirim (upload) perubahan yang sudah kita buat di local ke remote repository kita
 
-
-
-
+16. Untuk berkolaborasi dengan orang lain, kita harus punya salinan dari proyek kita, caranya yaitu :
+**git clone** *Link Repository* *Nama Folder*
 
 ## **3. HTML (Hype Text Markup Language)**
+
 ## **4. CSS (Cascading Style Sheet)**
 ## **5. Flexbox**
 ## **6. Algoritm & Pseudocode**
